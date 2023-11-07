@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Star Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>My Star Notes</h1>
+    <p class="subtitle">click a star and write what happened tonight</p>
+
+    <div id="sky" class="sky"></div>
+
+    <h2 id="which-star">Pick a star</h2>
+    <textarea id="note" placeholder="example: studied math then watched meteor video"></textarea>
+
+    <div class="row">
+      <button id="save">save note</button>
+      <button id="remove">remove note</button>
+    </div>
+
+    <p id="message"></p>
+
+    <h3>saved notes</h3>
+    <ul id="saved-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
